@@ -1,0 +1,113 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #61696c;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 100px auto;
+}
+
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+
+.wrapper .title{
+  height: 90px;
+  background: #868a8c;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper form .row input{
+  height: 80%;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+form .row input::placeholder{
+  color: #999;
+}
+
+.kelamin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hobi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.country {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.comment {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textinput {
+  width: 100%;
+  min-height: 75px;
+  border: 1px solid grey;
+}
+
+.upload {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center; 
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+input[type=text], select {
+  padding: 10px 10px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #008CBA;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px; 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}

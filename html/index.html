@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container"> 
+  <div class="wrapper">
+  <div class="title">
+    <span>Form Data</span>
+  </div>
+    <form action="/html/index3.html" onsubmit="a">
+      <div class="row">
+      <input type="text" id="namalengkap" 
+      name="firstname" placeholder="Nama Lengkap Anda" required>
+      </div>
+      <div class="row">
+      <input type="text" id="Pekerjaan" 
+      name="Pekerjaan" placeholder="Pekerjaan Anda" required>
+    </div>
+    
+<div class="kelamin">
+  <label for="Jeniskelamin">Jenis kelamin :</label>
+  <input type="radio" id="laki-laki" name="jeniskelamin">
+  <label for="laki-laki">Laki-Laki</label>
+  <input type="radio" id="perempuan" name="jeniskelamin">
+  <label for="perempuan">Perempuan</label>   
+</div>
+
+<div class="hobi">
+  <label for="hobi">Hobi :</label>
+  <input type="checkbox" id="makan" name="makan">
+  <label for="makan">Makan</label>
+  <input type="checkbox" id="tidur" name="tidur">
+  <label for="tidur">Tidur</label>
+  <input type="checkbox" id="game" name="game">
+  <label for="game">Game</label>
+</div>
+
+    <div class="country">
+      <div class="row">
+      <label for="country">Alamat :</label>
+      <select id="country" name="country">
+      <option value="Indonesia">Indonesia</option>
+      <option value="usa">USA</option>
+      <option value="china">China</option>
+      <option value="china">Singapore</option>
+      <option value="china">Malaysia</option>
+      <option value="china">Arab</option>
+    </select>
+  </div>
+    </div>
+
+    <div class="comment">
+      <textarea class="textinput">
+      </textarea>
+    </div>
+
+    <div class="upload">
+      <label for="keterangan"></label> 
+      <input type="file" name="pic" accept="image/*">
+    </div>
+  
+    <div class="submit">
+        <input type="submit" value="Daftar">  
+    </div>
+  </form>
+</div>
+</div>
+</html>
